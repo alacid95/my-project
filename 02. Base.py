@@ -20,13 +20,13 @@ print (horas*coste)
 """
 
 #fizzbuzz
-for i in range(100):
+for i in range(101):
     var = i
 
     if i%3 == 0:
         var = 'Fizz'
         if i%5 == 0:
             var = 'FizzBuzz'
-    elif i % 5 == 0:
+    elif i%5 == 0:
         var = 'Buzz'
     print (var)
